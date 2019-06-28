@@ -6,8 +6,11 @@
 * */
 import React,{ Component } from "react"
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import logo from "../../images/log03.jpg"
+import "./index.css"
+import "../../iconfont/font_go4u9iqd7sg/iconfont.css"
 
-export default class Router extends Component{
+export default class Header extends Component{
     constructor(props){
         super(props);
         this.state ={
@@ -16,7 +19,16 @@ export default class Router extends Component{
     render(){
         return(
             <header>
-
+                <div className="logo">
+                        <Link className="alignLeft" to="menu">
+                            <img src={logo} alt=""/>
+                        </Link>
+                </div>
+                <div className="menu">
+                    <a href="">
+                        <span className="icon iconfont icon-weibiaoti12"></span>
+                    </a>
+                </div>
             </header>
         )
     }

@@ -1,0 +1,42 @@
+/*
+* date:2019/6/25/15:30;
+* name:代超
+*
+* */
+.bannerBox{
+    width: 100%;
+    height: 1.78rem;
+    position: relative;
+}
+.dian{
+    position: absolute;
+    bottom: 1%;
+    left: 37%;
+}
+
+.dian>li{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 0.1rem 0 0.1rem;
+    float: left;
+}
+.dian>.re{
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

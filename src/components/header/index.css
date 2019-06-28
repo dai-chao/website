@@ -3,3 +3,43 @@
 * name:代超
 *
 * */
+
+header{
+    width: 100%;
+    height: 0.5rem;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50%;
+    height: 0.5rem;
+    float: left;
+}
+.logo>a>img{
+    display: block;
+    height: 0.5rem;
+}
+.menu{
+    width: 50%;
+    height: 0.5rem;
+    float: right;
+    position: relative;
+}
+.menu>a{
+    width: 100%;
+    height: 100%;
+}
+.menu>a>span{
+    position: absolute;
+    right: 12%;
+    top: 18%;
+    font-size: 0.3rem;
+    color: #000;
+}
+
+
+
+
+
+
+
+
