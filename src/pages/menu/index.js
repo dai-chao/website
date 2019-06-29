@@ -17,6 +17,7 @@ export default class Menu extends Component{
     render(){
         return(
             <div className="me">
+                {this.props.children}
                 <ul>
                     <li>首页</li>
                     <li>关于我们</li>

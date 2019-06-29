@@ -1,0 +1,60 @@
+/*
+* date:2019/6/25/15:30;
+* name:代超
+*
+* */
+
+.product{
+    width: 100%;
+    height: 3.8rem;
+    background: #fff;
+    padding: 0.2rem;
+}
+.product>h2{
+    width: 100%;
+    text-align: center;
+    font-size: 0.16rem;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+}
+.product>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.product>ul>li{
+    width: 1.6rem;
+    height: 1.36rem;
+    border: 1px solid #000;
+    border-radius: 0.05rem;
+}
+.product>ul>li:nth-child(1){
+    background: #fff;
+}
+.product>ul>li:nth-child(2){
+    background: #fff;
+}
+.proul{
+    margin-top: 0.15rem;
+}
+.product>ul>li>img{
+    width: 0.7rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+    margin-bottom: 0.1rem;
+}
+.product>ul>li>h2,h3{
+    font-size: 0.14rem;
+    text-align: center;
+}
+.product>ul>li>.wuyou{
+    margin-top: 0.2rem;
+}
+
+
+
+
+
+
+
+

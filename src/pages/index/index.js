@@ -5,18 +5,44 @@
 * */
 
 import React,{ Component } from "react"
-import { Link } from "react-router-dom"
+import { BrowserRouter, Route,Switch, Link } from "react-router-dom";
 import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"
+import About from "../../components/about/index"
+import Product from "../../components/product/index"
+import News from "../../components/news/index"
+import Footer from "../../components/footer/index"
+import Menu from "../menu/index";
 
 
 export default class Index extends Component{
+    constructor(props){
+        super(props)
+    }
+
+
     render(){
         return(
-            <div>
-                <Header/>
+            <BrowserRouter>
+                <Header >
+                    <Switch>
+                        <Route path="/index/menu" component={ Menu }/>
+                        <Route  component={()=>{
+                            return(
+                                <div>
+                                    404
+                                </div>
+                            )
+                        }}/>
+                    </Switch>
+                </Header>
                 <Banner/>
-            </div>
+                <About/>
+                <Product/>
+                <News/>
+                <Footer/>
+            </BrowserRouter>
+
         )
     }
 

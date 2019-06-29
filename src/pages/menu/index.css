@@ -3,8 +3,13 @@
 * name:代超
 *
 * */
-
-
+.me{
+    width: 100%;
+    height: 100%;
+}
+.me>ul>li{
+    font-size: 0.15rem;
+}
 
 
 

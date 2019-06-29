@@ -5,7 +5,7 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route,Switch, Link } from "react-router-dom";
 import logo from "../../images/log03.jpg"
 import "./index.css"
 import "../../iconfont/font_go4u9iqd7sg/iconfont.css"
@@ -20,7 +20,7 @@ export default class Header extends Component{
         return(
             <header>
                 <div className="logo">
-                        <Link className="alignLeft" to="menu">
+                        <Link className="alignLeft" to="/index/menu">
                             <img src={logo} alt=""/>
                         </Link>
                 </div>

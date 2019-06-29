@@ -6,7 +6,6 @@
 * */
 import React,{ Component } from "react"
 import { BrowserRouter, Route,Switch, Link } from "react-router-dom";
-// import {HashRouter,Route,Switch} from "react-router-dom"
 import App from "../App"
 import Index from "../pages/index/index"
 import Menu from "../pages/menu/index"
@@ -25,7 +24,7 @@ export default class Router extends Component{
                     <Switch>
                         <Route exact path="/" component={ Index }/>
                         <Route path="/index" component={ Index }/>
-                        <Route path="/menu" component={ Menu }/>
+                        <Route path="/index/menu" component={ Menu }/>
                         <Route  component={()=>{
                             return(
                                 <div>

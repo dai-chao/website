@@ -1,0 +1,105 @@
+/*
+* date:2019/6/25/15:30;
+* name:代超
+*
+* */
+.news{
+    width: 100%;
+    height: 5.5rem;
+    background: #fff;
+    padding: 0 0.25rem 0 0.25rem;
+}
+.news>h2{
+    width: 100%;
+    text-align: center;
+    font-size: 0.16rem;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+}
+.news>ul>li{
+    border: 1px solid #000;
+    width: 100%;
+    height: 1.04rem;
+    margin-bottom: 0.1rem;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.news>ul>li>img{
+    width: 0.84rem;
+    height: 0.84rem;
+    margin-right: 0.1rem;
+}
+.news>ul>li>h2{
+    font-size: 0.14rem;
+    margin-top: 0.05rem;
+}
+.news>ul>li>h3{
+    font-size: 0.14rem;
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+
+.news>ul{
+    position: relative;
+    width: 100%;
+}
+.news>ul>a{
+    position: absolute;
+    font-size: 0.18rem;
+    padding: 0.05rem 0.4rem 0.05rem 0.4rem;
+    text-align: center;
+    background: #0097ff;
+    left: 28%;
+    color: #fff;
+    border-radius: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
