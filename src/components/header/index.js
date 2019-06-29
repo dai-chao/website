@@ -5,34 +5,40 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route,Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route,Switch, Link ,withRouter} from "react-router-dom";
 import logo from "../../images/log03.jpg"
 import "./index.css"
 import "../../iconfont/font_go4u9iqd7sg/iconfont.css"
 
-export default class Header extends Component{
+class Header extends Component{
     constructor(props){
         super(props);
         this.state ={
+        }
+    }
+    componentWillReceiveProps() {
+        if (this.props.history.location !== this.props.location) {
+            window.location.reload(true)
         }
     }
     render(){
         return(
             <header>
                 <div className="logo">
-                        <Link className="alignLeft" to="/index/menu">
-                            <img src={logo} alt=""/>
-                        </Link>
+                    <img src={logo} alt=""/>
                 </div>
                 <div className="menu">
-                    <a href="">
+                    <Link className="alignLeft" to="/menu">
                         <span className="icon iconfont icon-weibiaoti12"></span>
-                    </a>
+                    </Link>
                 </div>
             </header>
         )
     }
 }
+
+
+export default withRouter(Header)
 
 
 

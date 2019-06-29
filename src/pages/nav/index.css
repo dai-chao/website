@@ -3,21 +3,28 @@
 * name:代超
 *
 * */
-.news{
+.nav{
     width: 100%;
-    height: 5.5rem;
-    background: #fff;
-    padding: 0 0.25rem 0 0.25rem;
+
 }
-.news>h2{
+
+
+.nav>h2{
     width: 100%;
     text-align: center;
     font-size: 0.16rem;
     margin-bottom: 0.2rem;
     font-weight: bold;
     color: #000;
+    margin-top: 0.25rem;
 }
-.news>ul>a>li{
+.nav>ul{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding: 0.2rem;
+    width: 100%;
+}
+.nav>ul>a>li{
     border: 1px solid #000;
     width: 100%;
     height: 1.04rem;
@@ -27,21 +34,34 @@
     justify-content: space-between;
     position: relative;
 }
-.news>ul>a>li>img{
-    display: block;
-    width: 0.9rem;
+.nav>ul>a>li>img{
+    width: 0.84rem;
     height: 0.84rem;
     margin-right: 0.1rem;
 }
-.news>ul>a>li>.n2{
-    width: 0.84rem;
-}
-.news>ul>a>li>h2{
-    font-size: 0.14rem;
+.nav>ul>a>li>h2{
+    font-size: 0.16rem;
     margin-top: 0.05rem;
     color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
 }
-.news>ul>a>li>h4{
+.nav>ul>a>li>h5{
+    font-size: 0.13rem;
+    margin-top: 0.2rem;
+    width: 2.25rem;
+    height: 0.38rem;
+    position: absolute;
+    left: 29%;
+    bottom: 25%;
+    overflow: hidden;
+    color: #898585;
+
+
+}
+.nav>ul>a>li>h4{
     font-size: 0.14rem;
     position: absolute;
     right: 5%;
@@ -49,11 +69,11 @@
     color: #000;
 }
 
-.news>ul{
+.nav>ul{
     position: relative;
     width: 100%;
 }
-/*.news>ul>a{*/
+/*.nav>ul>a{*/
     /*position: absolute;*/
     /*font-size: 0.18rem;*/
     /*padding: 0.05rem 0.4rem 0.05rem 0.4rem;*/
@@ -63,50 +83,5 @@
     /*color: #fff;*/
     /*border-radius: 0.1rem;*/
 /*}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

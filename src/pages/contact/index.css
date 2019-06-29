@@ -1,0 +1,47 @@
+/*
+* date:2019/6/25/15:30;
+* name:代超
+*
+* */
+.contact{
+    width: 100%;
+    height: 5rem;
+}
+.contact p{
+    width: 100%;
+    text-align: left;
+    font-size: 0.16rem;
+    margin-bottom: 0.1rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 0.25rem;
+    margin-left: 0.2rem;
+}
+.contact>ul{
+    width: 100%;
+    padding: 0.4rem;
+    padding-top: 0;
+    padding-bottom: 0.1rem;
+}
+.contact>ul>li{
+    font-size: 0.13rem;
+    margin-left: 2%;
+    margin-bottom: 0.1rem;
+}
+.contact>img{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin:  0 auto;
+}
+
+.contact>h3,h4{
+    font-size: 0.13rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0.1rem;
+}
+
+
+
+
+

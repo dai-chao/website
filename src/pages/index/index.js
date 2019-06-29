@@ -20,21 +20,11 @@ export default class Index extends Component{
         super(props)
     }
 
-
     render(){
+        console.log(this.props);
         return(
             <BrowserRouter>
                 <Header >
-                    <Switch>
-                        <Route path="/index/menu" component={ Menu }/>
-                        <Route  component={()=>{
-                            return(
-                                <div>
-                                    404
-                                </div>
-                            )
-                        }}/>
-                    </Switch>
                 </Header>
                 <Banner/>
                 <About/>

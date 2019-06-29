@@ -5,10 +5,11 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route, Link ,withRouter} from "react-router-dom";
 import "./index.css"
+import Header from "../../components/header/index"
 
-export default class Menu extends Component{
+class Menu extends Component{
     constructor(props){
         super(props);
         this.state ={
@@ -18,17 +19,19 @@ export default class Menu extends Component{
         return(
             <div className="me">
                 {this.props.children}
+                <Header/>
                 <ul>
-                    <li>首页</li>
-                    <li>关于我们</li>
-                    <li>产品介绍</li>
-                    <li>新闻动态</li>
-                    <li>联系我们</li>
+                    <li><Link to="/index">首页</Link></li>
+                    <li><Link to="/about">关于我们</Link></li>
+                    <li><Link to="/pray">产品介绍</Link></li>
+                    {/*<li> <Link to="nav">新闻动态</Link> </li>*/}
+                    <li> <Link to="contact">联系我们</Link> </li>
                 </ul>
             </div>
         )
     }
 }
+export default withRouter(Menu);
 
 
 

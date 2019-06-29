@@ -10,44 +10,46 @@
     background: #fff;
     padding: 0.2rem;
 }
-.product>h2{
+.product>a>h2{
     width: 100%;
     text-align: center;
     font-size: 0.16rem;
     margin-bottom: 0.2rem;
     font-weight: bold;
+    color: #000;
 }
-.product>ul{
+.product>a>ul{
     display: flex;
     justify-content: space-between;
 }
-.product>ul>li{
+.product>a>ul>li{
     width: 1.6rem;
     height: 1.36rem;
     border: 1px solid #000;
     border-radius: 0.05rem;
 }
-.product>ul>li:nth-child(1){
+.product>a>ul>li:nth-child(1){
     background: #fff;
 }
-.product>ul>li:nth-child(2){
+.product>a>ul>li:nth-child(2){
     background: #fff;
 }
 .proul{
     margin-top: 0.15rem;
 }
-.product>ul>li>img{
+.product>a>ul>li>img{
     width: 0.7rem;
     height: 0.6rem;
     margin: 0 auto;
     margin-top: 0.15rem;
     margin-bottom: 0.1rem;
 }
-.product>ul>li>h2,h3{
+.product>a>ul>li>h2,h3{
     font-size: 0.14rem;
     text-align: center;
+    color: #000;
 }
-.product>ul>li>.wuyou{
+.product>a>ul>li>.wuyou{
     margin-top: 0.2rem;
 }
 

@@ -1,0 +1,40 @@
+/*
+* date:2019/6/25/15:30;
+* name:代超
+*
+* */
+.prayBox{
+    width: 100%;
+
+    background: #fff;
+    /*padding-left: 0.2rem;*/
+    /*padding-right: 0.2rem;*/
+}
+.prayBox>h2{
+    margin-top: 0.3rem;
+    font-size: 0.15rem;
+    padding-left: 0.2rem;
+    font-weight: bold;
+}
+.prayBox>ul{
+    padding: 0.2rem;
+    padding-top: 0.1rem;
+}
+.prayBox>ul>li{
+    margin-bottom: 0.2rem;
+}
+.prayBox>ul>li>h3{
+    color: #000;
+    font-size: 0.18rem;
+    margin-bottom: 0.1rem;
+}
+.prayBox>ul>li>h4{
+    margin-top: 0.1rem;
+    color: #000;
+    font-size: 0.15rem;
+}
+
+
+
+
+
