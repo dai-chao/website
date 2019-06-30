@@ -25,15 +25,15 @@ class Contact extends Component{
                 {this.props.children}
                 <Header/>
                 <Banner/>
-                <p className="  wow slideInRight"> - 联系我们 -</p>
-                <ul className="  wow slideInLeft">
-                    <li>电话：010-68570339</li>
-                    <li>地址：北京市 丰台区 汉威国际广场 三区5栋</li>
-                    <li>邮箱：zhxl_yl@163.com</li>
+                <h2 className="wow bounceIn"> - 联系我们 -</h2>
+                <ul className="wow slideInUp">
+                    <li className="wow slideInUp">电话：010-68570339</li>
+                    <li className="wow slideInUp">地址：北京市 丰台区 汉威国际广场 三区5栋</li>
+                    <li className="wow slideInUp">邮箱：zhxl_yl@163.com</li>
                 </ul>
-                <img src={e1} alt="" className="  wow slideInRight"/>
-                <h3 className="  wow slideInRight">关注订阅号“祥龄资讯</h3>
-                <h4 className="  wow slideInRight">获取更多资讯</h4>
+                <img src={e1} alt="" className="wow slideInUp"/>
+                <h3 className="wow slideInUp">关注订阅号“祥龄资讯</h3>
+                <p className="wow slideInUp">获取更多资讯</p>
                 <Footer/>
             </div>
         )

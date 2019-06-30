@@ -8,6 +8,11 @@
     height: 10rem;
     background: #fff;
 }
+.aboutBox p{
+    text-align: justify;
+    text-indent:0.3rem;
+}
+
 .abouts{
     width: 100%;
     height: 3.8rem;
@@ -18,18 +23,17 @@
 }
 .aboutBox>h2{
     width: 100%;
-    text-align: left;
+    text-align: center;
     font-size: 0.16rem;
     font-weight: bold;
     margin-top: 0.3rem;
     padding-left: 5%;
 
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
-.aboutBox>h4{
+.aboutBox>p{
     font-size: 0.15rem;
     margin-top: 0.2rem;
+    
 }
 .abouts>h2{
     width: 100%;
@@ -37,18 +41,12 @@
     font-size: 0.16rem;
     margin-bottom: 0.2rem;
     font-weight: bold;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
 .abouts>img{
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
-.abouts>h4{
+.abouts>p{
     font-size: 0.15rem;
     margin-top: 0.2rem;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
 .lian{
     font-size:0.15rem ;
@@ -60,8 +58,6 @@
 }
 .aboutList>li{
     margin-bottom: 0.05rem;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
 .aboutList>li:nth-child(4){
     margin-bottom: 0.2rem;

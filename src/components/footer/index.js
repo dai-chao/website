@@ -17,7 +17,7 @@ export default class Footer extends Component{
     render(){
         return(
             <div  className="footer">
-                <h2 className="wow fadeInUp animated" data-wow-duration="0.5s" data-wow-delay="0.2s">Copyright © 2019. 中汇祥龄 All rights reserved</h2>
+                <h2 className="wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">Copyright © 2019. 中汇祥龄 All rights reserved</h2>
                 {/*<h3>ICP证：京A-20080101</h3>*/}
             </div>
         )
