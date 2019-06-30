@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./index.css"
-import './css/animate.min.css'
 import Router from "./router/index"
 import * as serviceWorker from './serviceWorker';
+import 'animate.css'
+import {WOW} from 'wowjs';
+new WOW({live: false}).init();
 
 
 ReactDOM.render(<Router />, document.getElementById('root'));
