@@ -19,6 +19,12 @@ export default class Index extends Component{
     constructor(props){
         super(props)
     }
+    componentWillReceiveProps() {
+        if (this.props.history.location !== this.props.location) {
+            window.location.reload(true)
+            
+        }
+    }
 
     render(){
         // console.log(this.props);

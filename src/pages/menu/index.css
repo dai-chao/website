@@ -10,16 +10,22 @@
     padding-top: 0.2rem;
 
 }
-.me>ul>li{
+.me>ul>a>li{
     font-size: 0.18rem;
     text-align: center;
     margin-top: 0.2rem;
     border-bottom: 1px solid #c0b7b7;
     padding-bottom: 0.2rem;
+    animation-duration: 2s;
+    animation-delay: 0.5s
 }
-.me>ul>li>a{
+.me>ul>a>li>a{
+    width: 100%;
+    text-align: center;
     color: #000;
     font-weight: bold;
+    animation-duration: 2s;
+    animation-delay: 0.5s
 }
 
 

@@ -19,13 +19,19 @@ class Contact extends Component{
         this.state ={
         }
     }
+    componentWillReceiveProps() {
+        if (this.props.history.location !== this.props.location) {
+            window.location.reload(true)
+            
+        }
+    }
     render(){
         return(
             <div className="contact">
                 {this.props.children}
                 <Header/>
                 <Banner/>
-                <h2 className="wow bounceIn"> - 联系我们 -</h2>
+                <h5 className="wow bounceIn"> - 联系我们 -</h5>
                 <ul className="wow slideInUp">
                     <li className="wow slideInUp">电话：010-68570339</li>
                     <li className="wow slideInUp">地址：北京市 丰台区 汉威国际广场 三区5栋</li>

@@ -19,6 +19,7 @@ class Header extends Component{
     componentWillReceiveProps() {
         if (this.props.history.location !== this.props.location) {
             window.location.reload(true)
+            
         }
     }
     render(){

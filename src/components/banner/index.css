@@ -25,6 +25,37 @@
 .dian>.re{
     background: red;
 }
+.bannerBox .txtbox{
+    position: absolute;
+    left: 0%;
+    top: 25%;
+    width: 100%
+    
+
+}
+.bannerBox .txtbox li p{
+    font-size: 0.2rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-weight: 400
+    
+}
+.bannerBox .txtbox li .fon{
+    width: 100%;
+    font-size: 0.12rem;
+    text-align: center;
+    color: #fff;
+    text-indent: 0rem;
+    padding: 0 0.1rem 0 0.1rem;
+}
+.txt{
+    display: block
+}
+.dis{
+    display: none;
+}
+
 
 
 

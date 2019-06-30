@@ -17,6 +17,12 @@ import u4 from "../../images/主页/Big_icon4.png"
         this.state ={
         }
     }
+    componentWillReceiveProps() {
+        if (this.props.history.location !== this.props.location) {
+            window.location.reload(true)
+            
+        }
+    }
     render(){
         return(
 
