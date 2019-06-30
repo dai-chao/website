@@ -9,6 +9,12 @@ import React,{Component} from 'react';
 import './App.css';
 
 class App extends Component{
+
+    componentWillMount() {
+
+        
+    }
+
     render(){
         return(
             <div>
@@ -23,6 +29,9 @@ class App extends Component{
                 {/*<Link to="typography">typography</Link><br/>*/}
             </div>
         )
+    }
+    componentDidMount() {
+        
     }
 }
 

@@ -24,10 +24,23 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>中汇祥龄</title>
-    <link href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="../src/swiper/dist/css/swiper.min.css">
-    <script type="text/javascript" src="../src/swiper/dist/js/swiper.min.js"></script>
-
+	<script src="../src/js/wow.min.js"></script>
+	<script>
+			var wow = new WOW({
+					boxClass:     'wow',      // animated element css class (default is wow)
+					animateClass: 'animated', // animation css class (default is animated)
+					offset:       0,          // distance to the element when triggering the animation (default is 0)
+					mobile:       true,       // trigger animations on mobile devices (default is true)
+					live:         true,       // act on asynchronously loaded content (default is true)
+					callback:     function(box) {
+					// the callback is fired every time an animation is started
+					// the argument that is passed in is the DOM node being animated
+					},
+					scrollContainer: null // optional scroll container selector, otherwise use window
+				});
+				wow.init();
+			
+		</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -44,7 +57,12 @@
     -->
   </body>
 </html>
+<<<<<<< HEAD
 <!-- <script src="../scripts/wow.min.js"></script> -->
+=======
+
+
+>>>>>>> b12be6dabf92da2eb9a8daad1b4babc575013955
 
 
 
