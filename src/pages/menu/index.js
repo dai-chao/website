@@ -15,6 +15,8 @@ class Menu extends Component{
         this.state ={
         }
     }
+
+    /*<li> <Link to="nav">新闻动态</Link> </li>*/
     render(){
         return(
             <div className="me">
@@ -24,7 +26,7 @@ class Menu extends Component{
                     <li><Link to="/index">首页</Link></li>
                     <li><Link to="/about">关于我们</Link></li>
                     <li><Link to="/pray">产品介绍</Link></li>
-                    <li> <Link to="nav">新闻动态</Link> </li>
+
                     <li> <Link to="contact">联系我们</Link> </li>
                 </ul>
             </div>

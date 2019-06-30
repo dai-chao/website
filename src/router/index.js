@@ -5,7 +5,7 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route,Switch} from "react-router-dom";
+import { HashRouter, Route,Switch} from "react-router-dom";
 import App from "../App"
 import Index from "../pages/index/index"
 import Menu from "../pages/menu/index"
@@ -22,29 +22,31 @@ export default class Router extends Component{
 
         }
     }
+
+// <Route  component={()=>{
+//     return(
+// <div>
+//     404
+//     </div>
+// )
+// }}/>
     render(){
         return(
-            <BrowserRouter>
+            <HashRouter>
                 <App>
                     <Switch>
                         <Route exact path="/" component={ Index }/>
-                        <Route path="/menu" component={ Menu }/>
                         <Route path="/index" component={ Index }/>
+                        <Route path="/menu" component={ Menu }/>
                         <Route path="/about" component={ About }/>
                         <Route path="/pray" component={ Pray }/>
                         <Route path="/nav" component={ Nav }/>
                         <Route path="/contact" component={ Contact }/>
                         <Route path="/news" component={ News }/>
-                        <Route  component={()=>{
-                            return(
-                                <div>
-                                    404
-                                </div>
-                            )
-                        }}/>
+
                     </Switch>
                 </App>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }

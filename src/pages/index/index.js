@@ -5,7 +5,7 @@
 * */
 
 import React,{ Component } from "react"
-import { BrowserRouter, Route,Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route,Switch, Link,HashRouter } from "react-router-dom";
 import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"
 import About from "../../components/about/index"
@@ -21,9 +21,9 @@ export default class Index extends Component{
     }
 
     render(){
-        console.log(this.props);
+        // console.log(this.props);
         return(
-            <BrowserRouter>
+            <HashRouter>
                 <Header >
                 </Header>
                 <Banner/>
@@ -31,7 +31,7 @@ export default class Index extends Component{
                 <Product/>
                 <News/>
                 <Footer/>
-            </BrowserRouter>
+            </HashRouter>
 
         )
     }
