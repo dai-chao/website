@@ -19,12 +19,15 @@ class About extends Component{
         return(
             <div className="about">
                 <Link to="/about">
-                    <h2>- 关于我们 -</h2>
-                    <img src={aboutimg} alt=""/>
-                    <h4>中汇祥龄电子商务(北京)有限公（ZHXL）成立于2019年，由中付航天科技创新数据中心（深圳）股份有限公司旗下投资经营，集团在中国老年人才信息中心，中国老龄协会组织指导下，依托中国老龄学会所属北京国龄智慧健康养老产业发展中心共同搭建互联网+养老生活服务平台，旨在分担国家人口老龄化压力，减轻社会养老负担，贯彻国家新时代养老政策。</h4>
+                    <h2 className={ document.documentElement.scrollTop === 467 ? "fl wow slideInUp" : "" }>- 关于我们 -</h2>
+                    <img src={aboutimg} alt="" className="db_left fl wow slideInLeft"/>
+                    <h4 className="db_right fl wow slideInRight">中汇祥龄电子商务(北京)有限公（ZHXL）成立于2019年，由中付航天科技创新数据中心（深圳）股份有限公司旗下投资经营，集团在中国老年人才信息中心，中国老龄协会组织指导下，依托中国老龄学会所属北京国龄智慧健康养老产业发展中心共同搭建互联网+养老生活服务平台，旨在分担国家人口老龄化压力，减轻社会养老负担，贯彻国家新时代养老政策。</h4>
                 </Link>
             </div>
         )
+    }
+    componentDidMount(){
+        console.log(document.documentElement.scrollTop)
     }
 }
 export default withRouter(About)

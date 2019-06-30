@@ -8,12 +8,14 @@
     height: 1rem;
     background: rgba(85, 85, 85, 1);
     padding-top: 0.35rem;
+
 }
 .footer>h2,h3{
     font-size: 0.13rem;
     color: #fff;
     margin: 0 auto;
     text-align: center;
+
 }
 
 

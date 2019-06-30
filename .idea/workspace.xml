@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e32e47d1-4a4c-4031-91d6-655fe8ab17e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/menu/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/menu/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="e32e47d1-4a4c-4031-91d6-655fe8ab17e6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -67,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/news/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -144,7 +127,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="768" />
     <option name="width" value="1159" />
     <option name="height" value="1047" />
@@ -276,18 +259,17 @@
       <workItem from="1561535872923" duration="389000" />
       <workItem from="1561536271869" duration="604000" />
       <workItem from="1561537012224" duration="2769000" />
-      <workItem from="1561724600190" duration="39254000" />
+      <workItem from="1561724600190" duration="39442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46524000" />
+    <option name="totallyTimeSpent" value="46712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.17864583" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.17864583" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -295,7 +277,7 @@
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.041489363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.48404256" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/news/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>

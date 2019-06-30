@@ -22,26 +22,26 @@ import u4 from "../../images/主页/Big_icon4.png"
 
                 <div className="product">
                     <Link to="pray">
-                        <h2>- 核心产品 -</h2>
+                        <h2 className="fl wow slideInDown">- 核心产品 -</h2>
                         <ul>
-                            <li>
+                            <li className="db_left fl wow slideInLeft">
                                 <img src={u1} alt=""/>
                                 <h2>全国老年服务</h2>
                                 <h2>信用信息平台</h2>
                             </li>
-                            <li>
+                            <li className="db_right fl wow slideInRight">
                                 <img src={u2} alt=""/>
                                 <h2>新时代智慧健康</h2>
                                 <h2>养老平台</h2>
                             </li>
                         </ul>
                         <ul className="proul">
-                            <li>
+                            <li className="db_left fl wow slideInLeft">
                                 <img src={u3} alt=""/>
                                 <h2>北三县</h2>
                                 <h2>电商下乡扶贫项目</h2>
                             </li>
-                            <li >
+                            <li className="db_right fl wow slideInRight" >
                                 <img src={u4} alt=""/>
                                 <h2 className="wuyou">无忧养老康养项目</h2>
                             </li>
