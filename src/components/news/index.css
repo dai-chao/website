@@ -16,8 +16,6 @@
     margin-bottom: 0.2rem;
     font-weight: bold;
     color: #000;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
 .news>ul>a>li{
     border: 1px solid #000;
@@ -28,8 +26,6 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
 .news>ul>a>li>img{
     display: block;

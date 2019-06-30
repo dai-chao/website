@@ -17,9 +17,6 @@
     margin-bottom: 0.2rem;
     font-weight: bold;
     color: #000;
-
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
 .product>a>ul{
     display: flex;
@@ -30,9 +27,6 @@
     height: 1.36rem;
     border: 1px solid #000;
     border-radius: 0.05rem;
-
-    animation-duration: 2s;
-    animation-delay: 0.5s;
 }
 .product>a>ul>li:nth-child(1){
     background: #fff;

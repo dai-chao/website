@@ -28,20 +28,20 @@ class About extends Component{
                 <Header/>
                 <Banner/>
                 <div className="cla"></div>
-                <h2 className="db_right fl wow slideInRight">- 关于我们 -</h2>
+                <h2 className=" fl wow slideInRight">- 关于我们 -</h2>
                 <div className="abouts">
-                    <img src={ a1 } alt="" className="db_left fl wow slideInLeft"/>
-                    <h4 className="db_right fl wow slideInRight">中汇祥龄电子商务(北京)有限公（ZHXL）成立于2019年，由中付航天科技创新数据中心（深圳）股份有限公司旗下投资经营，集团在中国老年人才信息中心，中国老龄协会组织指导下，依托中国老龄学会所属北京国龄智慧健康养老产业发展中心共同搭建互联网+养老生活服务平台，旨在分担国家人口老龄化压力，减轻社会养老负担，贯彻国家新时代养老政策。</h4>
+                    <img src={ a1 } alt="" className=" fl wow slideInLeft"/>
+                    <h4 className=" fl wow slideInRight">中汇祥龄电子商务(北京)有限公（ZHXL）成立于2019年，由中付航天科技创新数据中心（深圳）股份有限公司旗下投资经营，集团在中国老年人才信息中心，中国老龄协会组织指导下，依托中国老龄学会所属北京国龄智慧健康养老产业发展中心共同搭建互联网+养老生活服务平台，旨在分担国家人口老龄化压力，减轻社会养老负担，贯彻国家新时代养老政策。</h4>
                 </div>
                 <div className="abouts">
-                    <img src={ a2 } alt="" className="db_right fl wow slideInRight"/>
-                    <h4 className="db_left fl wow slideInLeft">中汇祥龄电子商务(北京)有限公（ZHXL）成立于2019年，由中付航天科技创新数据中心（深圳）股份有限公司旗下投资经营，集团在中国老年人才信息中心，中国老龄协会组织指导下，依托中国老龄学会所属北京国龄智慧健康养老产业发展中心共同搭建互联网+养老生活服务平台，旨在分担国家人口老龄化压力，减轻社会养老负担，贯彻国家新时代养老政策。</h4>
+                    <img src={ a2 } alt="" className=" fl wow slideInRight"/>
+                    <h4 className=" fl wow slideInLeft">中汇祥龄电子商务(北京)有限公（ZHXL）成立于2019年，由中付航天科技创新数据中心（深圳）股份有限公司旗下投资经营，集团在中国老年人才信息中心，中国老龄协会组织指导下，依托中国老龄学会所属北京国龄智慧健康养老产业发展中心共同搭建互联网+养老生活服务平台，旨在分担国家人口老龄化压力，减轻社会养老负担，贯彻国家新时代养老政策。</h4>
                 </div>
                 <div className="abouts">
-                    <img src={ a3 } alt="" className="db_left fl wow slideInLeft"/>
-                    <h4 className="db_right fl wow slideInRight">中汇祥龄电子商务(北京)有限公（ZHXL）成立于2019年，由中付航天科技创新数据中心（深圳）股份有限公司旗下投资经营，集团在中国老年人才信息中心，中国老龄协会组织指导下，依托中国老龄学会所属北京国龄智慧健康养老产业发展中心共同搭建互联网+养老生活服务平台，旨在分担国家人口老龄化压力，减轻社会养老负担，贯彻国家新时代养老政策。</h4>
+                    <img src={ a3 } alt="" className=" fl wow slideInLeft"/>
+                    <h4 className=" fl wow slideInRight">中汇祥龄电子商务(北京)有限公（ZHXL）成立于2019年，由中付航天科技创新数据中心（深圳）股份有限公司旗下投资经营，集团在中国老年人才信息中心，中国老龄协会组织指导下，依托中国老龄学会所属北京国龄智慧健康养老产业发展中心共同搭建互联网+养老生活服务平台，旨在分担国家人口老龄化压力，减轻社会养老负担，贯彻国家新时代养老政策。</h4>
                 </div>
-                <h2 className="ab db_right fl wow slideInRight">- 合作机构 -</h2>
+                <h2 className="ab  fl wow slideInRight">- 合作机构 -</h2>
                 <ul className="aboutList">
                     <li className="lian fl wow slideInUp">全国老龄工作委员会办公室信息中心</li>
                     <li className="lian fl wow slideInUp">北京国龄智慧健康养老产业发展中心</li>
