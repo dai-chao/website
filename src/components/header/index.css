@@ -13,11 +13,12 @@ header{
     width: 50%;
     height: 0.5rem;
     float: left;
+    padding: 0.05rem;
 }
 .logo>img{
     display: block;
     height: 100%;
-    hei
+    width: 1.18rem;
 }
 .menu{
     width: 50%;
@@ -32,8 +33,8 @@ header{
 .menu>a>span{
     position: absolute;
     right: 12%;
-    top: 18%;
-    font-size: 0.3rem;
+    top: 25%;
+    font-size: 0.25rem;
     color: #000;
 }
 

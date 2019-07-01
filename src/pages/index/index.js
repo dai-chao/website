@@ -25,6 +25,10 @@ export default class Index extends Component{
 
         }
     }
+    componentWillMount() {
+
+    }
+
     componentWillReceiveProps() {
         if (this.props.history.location !== this.props.location) {
             window.location.reload(true)
@@ -47,5 +51,7 @@ export default class Index extends Component{
 
         )
     }
-
+    componentDidMount() {
+        document.documentElement.scrollTop = 0;
+    }
 }

@@ -18,7 +18,7 @@
     padding-left: 0.2rem;
     font-weight: bold;
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
     
 }
 .prayBox>ul{
@@ -34,12 +34,12 @@
     font-size: 0.18rem;
     margin-bottom: 0.1rem;
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
     
 }
 .prayBox>ul>li>img{
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
     
 }
 .prayBox>ul>li>p{
@@ -47,7 +47,7 @@
     color: #000;
     font-size: 0.15rem;
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
     
 }
 

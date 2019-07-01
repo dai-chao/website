@@ -27,16 +27,16 @@
     font-size: 0.16rem;
     font-weight: bold;
     margin-top: 0.3rem;
-    padding-left: 5%;
+    padding-left: 0;
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
 
 }
 .aboutBox>p{
     font-size: 0.15rem;
     margin-top: 0.2rem;
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
     
 }
 .abouts>h2{
@@ -46,17 +46,18 @@
     margin-bottom: 0.2rem;
     font-weight: bold;
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s;
+    padding-left: 0;
 }
 .abouts>img{
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
 }
 .abouts>p{
     font-size: 0.15rem;
     margin-top: 0.2rem;
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
 }
 .lian{
     font-size:0.15rem ;
@@ -69,7 +70,7 @@
 .aboutList>li{
     margin-bottom: 0.05rem;
     animation-duration: 2s;
-    animation-delay: 0.5s
+    animation-delay: 0s
 }
 .aboutList>li:nth-child(4){
     margin-bottom: 0.2rem;
