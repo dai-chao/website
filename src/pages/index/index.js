@@ -5,19 +5,22 @@
 * */
 
 import React,{ Component } from "react"
-import { BrowserRouter, Route,Switch, Link,HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"
 import About from "../../components/about/index"
 import Product from "../../components/product/index"
 import News from "../../components/news/index"
 import Footer from "../../components/footer/index"
-import Menu from "../menu/index";
+/*import Menu from "../menu/index";*/
 
 
 export default class Index extends Component{
     constructor(props){
         super(props)
+        this.state={
+
+        }
     }
     componentWillReceiveProps() {
         if (this.props.history.location !== this.props.location) {

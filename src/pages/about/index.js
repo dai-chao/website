@@ -5,11 +5,11 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route, Link,withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import "./index.css"
 import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"
-import aboutimg from "../../images/主页/home_us.jpg"
+// import aboutimg from "../../images/主页/home_us.jpg"
 import Footer from "../../components/footer/index"
 import a1 from "../../images/关于我们/Product_img3.jpg"
 import a2 from "../../images/关于我们/us_img1.jpg"

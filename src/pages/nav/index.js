@@ -5,7 +5,7 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route, Link ,withRouter} from "react-router-dom";
+import {  Link ,withRouter} from "react-router-dom";
 import "./index.css"
 import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"
@@ -14,7 +14,7 @@ import v2 from "../../images/新闻动态/news_2.jpg"
 import v3 from "../../images/新闻动态/news_3.jpg"
 import v4 from "../../images/新闻动态/news_4.jpg"
 import v5 from "../../images/新闻动态/news_5.jpg"
-import v6 from "../../images/新闻动态/news_6.jpg"
+// import v6 from "../../images/新闻动态/news_6.jpg"
 import Footer from "../../components/footer/index"
 
 class Nav extends Component{

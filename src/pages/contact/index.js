@@ -5,7 +5,7 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route, Link ,withRouter} from "react-router-dom";
+import { withRouter} from "react-router-dom";
 import "./index.css"
 import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"

@@ -15,11 +15,11 @@
 
 .abouts{
     width: 100%;
-    height: 3.8rem;
+
     background: #fff;
-    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    padding: 0.2rem 0.4rem 0rem 0.4rem;
     margin-top: 0.08rem;
-    margin-bottom: 0.2rem;
+
 }
 .aboutBox>h2{
     width: 100%;
@@ -76,6 +76,9 @@
 }
 .aboutBox>.ab{
     margin-top: 0.4rem;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
 }
 
 

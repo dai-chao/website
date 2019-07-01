@@ -5,7 +5,7 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route, Link ,withRouter} from "react-router-dom";
+import { Link ,withRouter} from "react-router-dom";
 import "./index.css"
 import Header from "../../components/header/index"
 
@@ -21,17 +21,18 @@ class Menu extends Component{
             
         }
     }
-    /*<li> <Link to="nav">新闻动态</Link> </li>*/
+
+    // className="wow slideInUp list"
     render(){
         return(
             <div className="me">
                 {this.props.children}
                 <Header/>
                 <ul>
-                    <Link to="/index"><li className="wow slideInUp"><Link to="/index">首页</Link></li></Link>
-                    <Link to="/about"><li className="wow slideInUp"><Link to="/about">关于我们</Link></li></Link>
-                    <Link to="/pray"><li className="wow slideInUp"><Link to="/pray">产品介绍</Link></li></Link>
-                    <Link to="/pray"><li className="wow slideInUp"> <Link to="contact">联系我们</Link> </li></Link>
+                    <Link  to="/index"><li>首页</li></Link>
+                    <Link  to="/about"><li>关于我们</li></Link>
+                    <Link  to="/pray"><li>产品介绍</li></Link>
+                    <Link  to="/contact"><li> 联系我们</li></Link>
                 </ul>
             </div>
         )

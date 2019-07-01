@@ -5,7 +5,7 @@
 *
 * */
 import React,{ Component } from "react"
-import { BrowserRouter, Route, Link ,withRouter} from "react-router-dom";
+import { withRouter} from "react-router-dom";
 import "./index.css"
 import n1 from "../../images/主页/news_1.jpg"
 import n2 from "../../images/新闻动态/image-news.jpg"

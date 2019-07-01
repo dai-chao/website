@@ -16,6 +16,9 @@
     margin-top: 0.2rem;
     border-bottom: 1px solid #c0b7b7;
     padding-bottom: 0.2rem;
+    width: 100%;
+    color: #000;
+    font-weight: bold;
     animation-duration: 2s;
     animation-delay: 0.5s
 }

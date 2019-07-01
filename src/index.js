@@ -4,7 +4,7 @@ import "./index.css"
 import Router from "./router/index"
 import * as serviceWorker from './serviceWorker';
 import 'animate.css'
-import {WOW} from 'wowjs';
+import { WOW } from 'wowjs';
 new WOW({live: false}).init();
 
 
