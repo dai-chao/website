@@ -12,6 +12,9 @@ import About from "../../components/about/index"
 import Product from "../../components/product/index"
 import News from "../../components/news/index"
 import Footer from "../../components/footer/index"
+import 'animate.css'
+import { WOW } from 'wowjs';
+new WOW({live: false}).init();
 /*import Menu from "../menu/index";*/
 
 

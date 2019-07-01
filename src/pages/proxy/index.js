@@ -14,6 +14,9 @@ import p2 from "../../images/产品介绍/Product_img2.jpg"
 import p3 from "../../images/产品介绍/Product_img3.jpg"
 import p4 from "../../images/产品介绍/Product_img4.jpg"
 import Footer from "../../components/footer/index"
+import 'animate.css'
+import { WOW } from 'wowjs';
+new WOW({live: false}).init();
 
 class Pray extends Component{
     constructor(props){

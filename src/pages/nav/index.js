@@ -16,6 +16,9 @@ import v4 from "../../images/新闻动态/news_4.jpg"
 import v5 from "../../images/新闻动态/news_5.jpg"
 // import v6 from "../../images/新闻动态/news_6.jpg"
 import Footer from "../../components/footer/index"
+import 'animate.css'
+import { WOW } from 'wowjs';
+new WOW({live: false}).init();
 
 class Nav extends Component{
     constructor(props){

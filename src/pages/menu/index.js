@@ -8,6 +8,9 @@ import React,{ Component } from "react"
 import { Link ,withRouter} from "react-router-dom";
 import "./index.css"
 import Header from "../../components/header/index"
+import 'animate.css'
+import { WOW } from 'wowjs';
+new WOW({live: false}).init();
 
 class Menu extends Component{
     constructor(props){

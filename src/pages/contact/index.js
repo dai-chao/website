@@ -11,6 +11,9 @@ import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"
 import e1 from "../../images/联系我们/erweima.jpg"
 import Footer from "../../components/footer/index"
+import 'animate.css'
+import { WOW } from 'wowjs';
+new WOW({live: false}).init();
 
 
 class Contact extends Component{

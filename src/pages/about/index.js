@@ -14,6 +14,9 @@ import Footer from "../../components/footer/index"
 import a1 from "../../images/关于我们/Product_img3.jpg"
 import a2 from "../../images/关于我们/us_img1.jpg"
 import a3 from "../../images/关于我们/us_img2.jpg"
+import 'animate.css'
+import { WOW } from 'wowjs';
+new WOW({live: false}).init();
 
 class About extends Component{
     constructor(props){
