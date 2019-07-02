@@ -23,7 +23,7 @@ export default class Banner extends Component{
     render(){
 
         let opt = {
-            auto: 5000,
+            auto: 3000,
             callback: function(index) {
                 // console.log(index);
                 this.setState({index: Number(index)})

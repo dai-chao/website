@@ -1,0 +1,21 @@
+/*
+* date:2019/6/25/15:30;
+* name:代超
+*   1rem === 100px
+* */
+
+.news1Box{
+    width: 100%;
+    height: 1rem;
+    font-size: 0.15rem;
+    background: #eeeeee;
+}
+.clear{
+    width: 100%;
+    height: 0.1rem;
+}
+
+
+
+
+

@@ -14,6 +14,12 @@ import Pray from "../pages/proxy/index"
 import Nav from "../pages/nav/index"
 import Contact from "../pages/contact/index"
 import News from "../pages/newsDetail/index"
+import Newslist1 from "../pages/newsList/newsList1/index"
+import Newslist2 from "../pages/newsList/newsList2/index"
+import Newslist3 from "../pages/newsList/newsList3/index"
+import Newslist4 from "../pages/newsList/newsList4/index"
+import Newslist5 from "../pages/newsList/newsList5/index"
+import Newslist6 from "../pages/newsList/newsList6/index"
 
 export default class Router extends Component{
     constructor(props){
@@ -44,6 +50,12 @@ export default class Router extends Component{
                         <Route path="/contact" component={ Contact }/>
                         <Route path="/news" component={ News }/>
 
+                        <Route path="/news1" component={ Newslist1 }/>
+                        <Route path="/news2" component={ Newslist2 }/>
+                        <Route path="/news3" component={ Newslist3 }/>
+                        <Route path="/news4" component={ Newslist4 }/>
+                        <Route path="/news5" component={ Newslist5 }/>
+                        <Route path="/news6" component={ Newslist6 }/>
                     </Switch>
                 </App>
             </HashRouter>

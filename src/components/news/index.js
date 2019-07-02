@@ -5,7 +5,7 @@
 *
 * */
 import React,{ Component } from "react"
-import { withRouter} from "react-router-dom";
+import { withRouter,Link} from "react-router-dom";
 import "./index.css"
 import n1 from "../../images/主页/news_1.jpg"
 import n2 from "../../images/新闻动态/image-news.jpg"
@@ -61,7 +61,7 @@ import n4 from "../../images/主页/news_4.jpg"
                         </li>
                         </a>
                         
-                            {/*<Link to="">查看更多</Link>*/}
+                            <Link to="nav" className="more">查看更多</Link>
                     </ul>
 
                 {/*</Link>*/}

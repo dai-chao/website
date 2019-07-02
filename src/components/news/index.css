@@ -53,16 +53,16 @@
     position: relative;
     width: 100%;
 }
-/*.news>ul>a{*/
-    /*position: absolute;*/
-    /*font-size: 0.18rem;*/
-    /*padding: 0.05rem 0.4rem 0.05rem 0.4rem;*/
-    /*text-align: center;*/
-    /*background: #0097ff;*/
-    /*left: 28%;*/
-    /*color: #fff;*/
-    /*border-radius: 0.1rem;*/
-/*}*/
+.news>ul>.more{
+    position: absolute;
+    font-size: 0.18rem;
+    padding: 0.05rem 0.4rem 0.05rem 0.4rem;
+    text-align: center;
+    background: #0097ff;
+    left: 28%;
+    color: #fff;
+    border-radius: 0.1rem;
+}
 
 
 

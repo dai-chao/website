@@ -14,6 +14,7 @@ import v2 from "../../images/新闻动态/news_2.jpg"
 import v3 from "../../images/新闻动态/news_3.jpg"
 import v4 from "../../images/新闻动态/news_4.jpg"
 import v5 from "../../images/新闻动态/news_5.jpg"
+import v6 from "../../images/新闻动态/news_6.jpg"
 // import v6 from "../../images/新闻动态/news_6.jpg"
 import Footer from "../../components/footer/index"
 import 'animate.css'
@@ -34,7 +35,7 @@ class Nav extends Component{
                 <Banner/>
                 <h2> - 新闻动态 -</h2>
                 <ul>
-                    <Link>
+                    <Link to="news1">
                         <li>
                             <img src={v1} alt=""/>
                             <h2>中汇祥龄协同老龄办筹划明星进社区宣导新时代智慧健康养老服务平台。</h2>
@@ -42,7 +43,7 @@ class Nav extends Component{
                             <h4>2019-6-29</h4>
                         </li>
                     </Link>
-                    <Link>
+                    <Link to="news2">
                         <li>
                             <img src={v2} alt=""/>
                             <h2>中国老龄协会领导莅临中汇祥龄公司考察调研。</h2>
@@ -50,7 +51,7 @@ class Nav extends Component{
                             <h4>2019-6-29</h4>
                         </li>
                     </Link>
-                    <Link>
+                    <Link to="news3">
                         <li>
                             <img src={v3} alt=""/>
                             <h2>银河保险·国龄·中汇祥龄三方正式签约成战略合作伙伴。</h2>
@@ -58,7 +59,7 @@ class Nav extends Component{
                             <h4>2019-6-29</h4>
                         </li>
                     </Link>
-                    <Link>
+                    <Link to="news4">
                         <li>
                             <img src={v4} alt=""/>
                             <h2>老龄产业有望成为经济发展新增长点。</h2>
@@ -66,7 +67,7 @@ class Nav extends Component{
                             <h4>2019-6-29</h4>
                         </li>
                     </Link>
-                    <Link>
+                    <Link to="news5">
                         <li>
                             <img src={v5} alt=""/>
                             <h2>中汇祥龄协同老龄办筹划明星进社区宣导新时代智慧健康养老服务平台。</h2>
@@ -74,9 +75,9 @@ class Nav extends Component{
                             <h4>2019-6-29</h4>
                         </li>
                     </Link>
-                    <Link>
+                    <Link to="news6">
                         <li>
-                            <img src={v1} alt=""/>
+                            <img src={v6} alt=""/>
                             <h2>国务院办公厅印发《关于推进养老服务发展的意见。</h2>
                             <h5>新华社北京4月16日电 近日，国务院办公厅印发《关于推进养老服务发展的意见》（以下简称《意见》）。</h5>
                             <h4>2019-6-29</h4>

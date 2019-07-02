@@ -22,7 +22,7 @@ export default class Index extends Component{
     constructor(props){
         super(props)
         this.state={
-
+            num:0
         }
     }
     componentWillMount() {
@@ -37,7 +37,6 @@ export default class Index extends Component{
     }
 
     render(){
-        // console.log(this.props);
         return(
             <HashRouter>
                 <Header >
@@ -51,7 +50,22 @@ export default class Index extends Component{
 
         )
     }
+
     componentDidMount() {
         document.documentElement.scrollTop = 0;
+        // this.state.num = this.state.num++;
+        // console.log(this.state.num);
+        // var number;
+        // function saveCookie(cookieName,cookieValue,cookieDates){
+        //     var d = new Date();
+        //     d.setDate(d.getDate()+cookieDates);
+        //     document.cookie = cookieName+"="+cookieValue+";expires="+d.toGMTString();
+        // }
+        //
+        // saveCookie(number,this.state.num+1,10);
+
+
+
+
     }
 }

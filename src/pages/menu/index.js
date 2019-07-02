@@ -35,6 +35,7 @@ class Menu extends Component{
                     <Link  to="/index"><li>首页</li></Link>
                     <Link  to="/about"><li>关于我们</li></Link>
                     <Link  to="/pray"><li>产品介绍</li></Link>
+                    <Link  to="/nav"><li>新闻动态</li></Link>
                     <Link  to="/contact"><li> 联系我们</li></Link>
                 </ul>
             </div>
