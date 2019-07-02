@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+.main-newsdate .introBott {
+  padding: 30px 0;
+  text-indent: 40px;
+}
+.news-box{
+
+}
+
+
+
+
+
+/*动态详情页*/
+.main-newsdate{margin-top: 80px; text-align: center;}
+.main-newsdate .news{text-align: left; line-height: 104px;}
+.main-newsdate h1{padding-top: 6px;}
+.main-newsdate .pushtime{color: #686868; font-size: 18px; line-height: 82px;}
+.main-newsdate .introTop{padding-bottom: 28px; font-size: 18px; line-height: 20px; text-align: left;}
+.main-newsdate .introBott{font-size: 18px; line-height: 42px; text-align: justify; padding: 40px 0 102px 0;}
+.main-newsdate img{max-width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
