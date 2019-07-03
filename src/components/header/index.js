@@ -7,7 +7,7 @@
 import React,{ Component } from "react"
 import {  Link ,withRouter} from "react-router-dom";
 import logo from "../../images/log03.jpg"
-import "./index.css"
+import "./index.css?+Math.random()"
 import "../../iconfont/font_go4u9iqd7sg/iconfont.css"
 
 class Header extends Component{

@@ -52,9 +52,9 @@ export default class Router extends Component{
 
                         <Route path="/news1" component={ Newslist1 }/>
                         <Route path="/news2" component={ Newslist2 }/>
-                        <Route path="/news3" component={ Newslist3 }/>
-                        <Route path="/news4" component={ Newslist4 }/>
-                        <Route path="/news5" component={ Newslist5 }/>
+                        <Route path="/news3" component={ Newslist4 }/>
+                        <Route path="/news4" component={ Newslist5 }/>
+                        <Route path="/news5" component={ Newslist3 }/>
                         <Route path="/news6" component={ Newslist6 }/>
                     </Switch>
                 </App>

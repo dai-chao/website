@@ -6,15 +6,15 @@
 * */
 import React,{ Component } from "react"
 import { withRouter} from "react-router-dom"
-import "./index.css"
+import "./index.css?+Math.random()"
 import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"
-import p1 from "../../images/产品介绍/Product_img1.jpg"
-import p2 from "../../images/产品介绍/Product_img2.jpg"
-import p3 from "../../images/产品介绍/Product_img3.jpg"
-import p4 from "../../images/产品介绍/Product_img4.jpg"
+import p1 from "../../images/产品介绍/prax (1).png"
+import p2 from "../../images/产品介绍/prax (2).png"
+import p3 from "../../images/产品介绍/prax (3).png"
+import p4 from "../../images/产品介绍/prax (4).png"
 import Footer from "../../components/footer/index"
-import 'animate.css'
+import 'animate.css?+Math.random()'
 import { WOW } from 'wowjs';
 new WOW({live: false}).init();
 
@@ -27,7 +27,7 @@ class Pray extends Component{
     render(){
         return(
             <div className="prayBox">
-                <Header/>
+                <Header className="bann"/>
                 <Banner/>
                 <h2 className="wow bounceIn"> -  产品介绍  -</h2>
                 <ul>
@@ -38,7 +38,7 @@ class Pray extends Component{
                     </li>
                     <li>
                         <h5 className="wow slideInUp">新时代智慧健康养老服务平台</h5>
-                        <img src={p2} alt="" className="wow slideInUp"/>
+                        <img src={p4} alt="" className="wow slideInUp"/>
                         <p className="wow slideInUp">新时代智慧健康养老服务平台是在中国老龄协会老年人才信息中心指导下，为贯彻习总书记日前对加强老龄工作作出重要指示，依托“互联网+”提供“点菜式”就近便捷养老服务，提高中国老年人养老生活质量，应对中国社会老龄化问题而建设的智慧养老服务平台，让老年人真正老有所养老有所依，提高老年人养老福利。
                             新时代智慧健康养老服务平台将包括生活消费，健康医疗，商业金融，文教体娱，社交互动等四大板块内容，涵盖老年人日常所需的便捷实用服务。</p>
                     </li>
@@ -50,7 +50,7 @@ class Pray extends Component{
                     </li>
                     <li>
                         <h5 className="wow slideInUp">无忧养老康养项目</h5>
-                        <img src={p4} alt="" className="wow slideInUp"/>
+                        <img src={p2} alt="" className="wow slideInUp"/>
                         <p className="wow slideInUp">由中国老龄协会老年人才信息中心牵头，安邦保险集团、北京国龄智慧健康养老产业发展中心、中汇祥龄电子商务（北京）有限公司、中国银河经纪公司联合签署战略合同，联合打造一款适合消费型养老保险产品——无忧养老康养项目，旨在提高老年人幸福生活指数，增加为老、防老、养老的抗风险能力，并委托新时代智慧健康养老服务平台统一运营</p>
                     </li>
                 </ul>

@@ -12,7 +12,7 @@ import About from "../../components/about/index"
 import Product from "../../components/product/index"
 import News from "../../components/news/index"
 import Footer from "../../components/footer/index"
-import 'animate.css'
+import 'animate.css?+Math.random()'
 import { WOW } from 'wowjs';
 new WOW({live: false}).init();
 /*import Menu from "../menu/index";*/
@@ -32,10 +32,8 @@ export default class Index extends Component{
     componentWillReceiveProps() {
         if (this.props.history.location !== this.props.location) {
             window.location.reload(true)
-            
         }
     }
-
     render(){
         return(
             <HashRouter>
@@ -50,22 +48,7 @@ export default class Index extends Component{
 
         )
     }
-
     componentDidMount() {
         document.documentElement.scrollTop = 0;
-        // this.state.num = this.state.num++;
-        // console.log(this.state.num);
-        // var number;
-        // function saveCookie(cookieName,cookieValue,cookieDates){
-        //     var d = new Date();
-        //     d.setDate(d.getDate()+cookieDates);
-        //     document.cookie = cookieName+"="+cookieValue+";expires="+d.toGMTString();
-        // }
-        //
-        // saveCookie(number,this.state.num+1,10);
-
-
-
-
     }
 }

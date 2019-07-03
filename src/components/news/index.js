@@ -6,18 +6,15 @@
 * */
 import React,{ Component } from "react"
 import { withRouter,Link} from "react-router-dom";
-import "./index.css"
+import "./index.css?+Math.random()"
+import v1 from "../../images/新闻动态/news_2.jpg"
 import n1 from "../../images/主页/news_1.jpg"
-import n2 from "../../images/新闻动态/image-news.jpg"
+
 import n3 from "../../images/主页/news_3.jpg"
 import n4 from "../../images/主页/news_4.jpg"
 
  class News extends Component{
-    constructor(props){
-        super(props);
-        this.state ={
-        }
-    }
+
     componentWillReceiveProps() {
         if (this.props.history.location !== this.props.location) {
             window.location.reload(true)
@@ -33,7 +30,7 @@ import n4 from "../../images/主页/news_4.jpg"
                     <ul>
                         <a href="javascript:;">
                         <li className="  wow slideInUp">
-                            <img src={n2} alt=""/>
+                            <img src={v1} alt=""/>
                             <h2>中汇祥龄协同老龄办筹划明星进社区宣导新时代智慧健康养老服务平台。</h2>
                             <h4>2019-6-29</h4>
                         </li>
@@ -59,10 +56,8 @@ import n4 from "../../images/主页/news_4.jpg"
                             <h4>2019-6-29</h4>
                         </li>
                         </a>
-                        
                             <Link to="nav" className="more">查看更多</Link>
                     </ul>
-
                 {/*</Link>*/}
             </div>
         )

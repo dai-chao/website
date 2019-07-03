@@ -6,9 +6,9 @@
 * */
 import React,{ Component } from "react"
 import { Link ,withRouter} from "react-router-dom";
-import "./index.css"
+import "./index.css?+Math.random()"
 import Header from "../../components/header/index"
-import 'animate.css'
+import 'animate.css?+Math.random()'
 import { WOW } from 'wowjs';
 new WOW({live: false}).init();
 
@@ -24,8 +24,6 @@ class Menu extends Component{
             
         }
     }
-
-    // className="wow slideInUp list"
     render(){
         return(
             <div className="me">

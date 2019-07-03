@@ -6,15 +6,14 @@
 * */
 import React,{ Component } from "react"
 import { withRouter } from "react-router-dom";
-import "./index.css"
+import "./index.css?+Math.random()"
 import Header from "../../components/header/index"
 import Banner from "../../components/banner/index"
-// import aboutimg from "../../images/主页/home_us.jpg"
 import Footer from "../../components/footer/index"
 import a1 from "../../images/关于我们/Product_img3.jpg"
 import a2 from "../../images/关于我们/us_img1.jpg"
 import a3 from "../../images/关于我们/us_img2.jpg"
-import 'animate.css'
+import 'animate.css?+Math.random()'
 import { WOW } from 'wowjs';
 new WOW({live: false}).init();
 

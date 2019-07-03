@@ -5,8 +5,7 @@
 *
 * */
 import React,{ Component } from "react"
-// import { BrowserRouter, Route, Link } from "react-router-dom";
-import "./index.css"
+import "./index.css?+Math.random()"
 
 export default class Footer extends Component{
     constructor(props){
@@ -17,7 +16,7 @@ export default class Footer extends Component{
     render(){
         return(
             <div  className="footer">
-                <h2 className="wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">Copyright © 2019. 中汇祥龄 All rights reserved</h2>
+                <h2 className="" data-wow-duration="0.5s" data-wow-delay="0.2s">Copyright © 2019. 中汇祥龄 All rights reserved</h2>
                 {/*<h3>ICP证：京A-20080101</h3>*/}
             </div>
         )
